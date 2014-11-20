@@ -2,11 +2,11 @@
 
 /* 
 
-    Este es un comentario en lenguaje C 
+    Este es un comentario en lenguaje C.
 
 */
 
-// Este es un comentario para compiladores nuevos
+// Este es un comentario para compiladores desde estándar C99  (año 1999) 
 
 int main (void){    
 	  
