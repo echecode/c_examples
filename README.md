@@ -1,2 +1,2 @@
-Hola mundo en C
+Ejemplos en C
 =========
