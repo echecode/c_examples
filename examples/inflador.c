@@ -2,21 +2,19 @@
 #include<windows.h>
 
 
-
 int procesoInflador (int sp, int presionActual, int tiempo){
     int res;
-    if ( (tiempo<=0) || (sp==presionActual)){ //si el tiempo termina, o set point = presion actual
+    if ( (tiempo<=0) || (sp==presionActual)){ //si (el tiempo termina) o si ( set point == presion actual )
           res=0;          
-    }else if(sp<presionActual){
+    }else if(sp < presionActual){ 
           res=-1;
-    }else if(sp>presionActual){
+    }else if(sp > presionActual){
           res=1;
     }
     return res;
 }
           
 
-           
 int main (){
 	
     int setPoint, presion, tiempo;
@@ -63,8 +61,8 @@ int main (){
                         presion++;
                    break;                   
                    default:
-                   		printf("Error");
-                   		goto salir;
+                   	printf("Error");
+                   	goto salir;
                    break;
     		}
     	
